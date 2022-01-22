@@ -16,7 +16,6 @@ public static class TaskUtils
         Graphics.DrawMesh(circleMesh,m,material,0,Camera.main);
     }
 
-    static float t = 0;
     public static void DrawLine(Vector2 p1, Vector2 p2, float lineWidth, Color color)
     {
         var material = new Material(Resources.Load<Material>("material"))

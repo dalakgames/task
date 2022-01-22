@@ -1,4 +1,3 @@
-using System.Collections.Generic;
 using UnityEngine;
 
 public class Task0 : MonoBehaviour
@@ -19,8 +18,12 @@ public class Task0 : MonoBehaviour
       ediyorsa yok olur.
      
      * TaskUtils içerisinde bulunan input ve draw fonksyonlarını kullanabilirsiniz.
+     
      * Çözümünüzüm tamamını bu scriptin içerisine yazmalisiniz.
-     * Vector2,Vector3,Mathf,System.Collections dışında olabildiğince az disaridan kod kullanmaya calisin
+     
+     *(!) Unity Physic kutuphanesinden yararlanmamalisiniz,
+     *(!) Vector2,Vector3,Mathf,System.Collections dışında olabildiğince az disaridan kod kullanmaya calisin
+     *(!) TasUtils teki cizim fonksyonlari task icin yeterlidir
      
      * 2 Taskı da bitirdikten sonra unity üst menüsünden Dalak/ExportSolution tuşuna basin, 
         oluşan Assets/MySolution dosyasını info@dalakgames.com adresine cv niz ile birlikte mail olarak gonderin
